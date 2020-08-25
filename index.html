@@ -6,185 +6,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark 85</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="3.jpg" alt="Third slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
     </div>
 
-    <main id="main-doc">
-        <section class="main-section" id="Intro">
-            <header>"And I... am... Iron Man."</header>
-            <article>
-                <p>últimas palabras de Tony Stark mientras usaba la armadura.</p>
+    <div class="main">
 
-                <p>El Mark 85 es la última armadura de Tony Stark . La armadura está equipada con una nanoestructura mejorada y es excepcionalmente más duradera y eficiente en combate que su modelo base, el Mark 50.La armadura apareció en Avengers: Endgame
-                    como el traje actual de Tony en 2023.</p>
-            </article>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="2.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="3.jpg" class="d-block w-100" alt="">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
-        </section>
-        <section class="main-section" id="Diseño de armadura">
-            <header>Diseño de armadura.</header>
-            <article>
-                <p>El traje presenta un esquema clásico de color dorado y rojo con partes doradas que son: muslos, brazos, estómago, cara y hombros con detalles en rojo. La exoestructura plateada está expuesta a lo largo de la armadura, también conecta piezas
-                    de armadura separadas. El Mark LXXXV presenta 15 RT en total (14 Micro-RT en la parte superior de la armadura y uno en forma de corazón principal en el cofre). cuando no está desplegado, el HUD se puede utilizar en forma de gafas Nano-tech
-                    AR (Realidad Aumentada) (controladas por tacto). El casco presenta Heads Up Display actualizado con retícula de orientación y pantallas de información adicional. El casco en sí presenta una placa frontal móvil (vista por última vez
-                    en Mark XLVII).
-                </p>
-            </article>
+        <main id="main-doc">
+            <section class="main-section" id="Intro">
+                <header>"And I... am... Iron Man."</header>
+                <article>
+                    <p>últimas palabras de Tony Stark mientras usaba la armadura.</p>
 
-        </section>
+                    <p>El Mark 85 es la última armadura de Tony Stark . La armadura está equipada con una nanoestructura mejorada y es excepcionalmente más duradera y eficiente en combate que su modelo base, el Mark 50.La armadura apareció en Avengers: Endgame
+                        como el traje actual de Tony en 2023.</p>
+                </article>
+                <hr>
 
-        <section class="main-section" id="Características">
-            <header>Características de la armadura.</header>
-            <article>
+            </section>
+            <section class="main-section" id="Diseño de armadura">
+                <header>Diseño de armadura.</header>
+                <article>
+                    <p>El traje presenta un esquema clásico de color dorado y rojo con partes doradas que son: muslos, brazos, estómago, cara y hombros con detalles en rojo. La exoestructura plateada está expuesta a lo largo de la armadura, también conecta
+                        piezas de armadura separadas. El Mark LXXXV presenta 15 RT en total (14 Micro-RT en la parte superior de la armadura y uno en forma de corazón principal en el cofre). cuando no está desplegado, el HUD se puede utilizar en forma
+                        de gafas Nano-tech AR (Realidad Aumentada) (controladas por tacto). El casco presenta Heads Up Display actualizado con retícula de orientación y pantallas de información adicional. El casco en sí presenta una placa frontal móvil
+                        (vista por última vez en Mark XLVII).
+                    </p>
+                </article>
 
-                <h3>Armadura</h3>
-                <p>El Armor presenta una nanotecnología aún más avanzada en comparación con su predecesor, que no solo forma módulos, sino que permite que el traje genere campos de energía. La composición consiste en nanopartículas de oro-titanio inteligentes,
-                    lo que le da a la armadura una combinación de mayor adaptabilidad, durabilidad, potencia y flexibilidad.
-                </p>
+            </section>
 
-                <h3>Deformable</h3>
-                <p>El traje se puede desplegar y desintegrar en segundos. El Mark LXXXV se almacena dentro del reactor Arc desmontable en forma de corazón. El Mark LXXXV se puede desplegar o desintegrar con ropa informal y se puede usar detrás de cosas como
-                    camisetas. No requiere ropa especializada a diferencia del traje base de nanotecnología debido a que las partículas pasan por alto el tejido de la ropa y se despliegan en el otro lado de dicho tejido. Al desplegarse, el traje forma
-                    placas de blindaje con pequeñas aberturas. Una vez que parte de la armadura está completamente formada, las piezas se cierran de una manera similar a Mark XLVII. Todo el proceso de vestirse lleva menos de 5 segundos.
-                </p>
+            <section class="main-section" id="Características">
+                <header>Características de la armadura.</header>
+                <article>
 
-                <h3>Segmentación del traje</h3>
-                <p>A diferencia de la armadura básica de nanotecnología (Mark L), que era de múltiples capas y un diseño de una sola pieza, el Iron Man Mark LXXXV presenta un diseño segmentado (piezas de armadura separadas). Cuando se despliega desde el
-                    reactor Arc, el traje se forma en pedazos sobre el cuerpo del operador. Una vez que la parte del cuerpo del traje ha terminado el proceso de formación, las partes de la armadura se aprietan en el cuerpo del operador. Esta forma de
-                    nanoconstrucción permite desplegar la armadura en "modo de despliegue limitado" cuando es necesario el sigilo. Sin embargo, esta característica solo se usa al desplegar y / o deformar la armadura o partes de ella (como el casco para
-                    una visión clara, en cuyo caso la placa frontal se mueve hacia arriba y comienza a deformarse junto con el resto del casco). Los módulos de la armadura están formados en una sola pieza sólida, al igual que la armadura básica de nanotecnología.</p>
+                    <h3>Armadura</h3>
+                    <p>El Armor presenta una nanotecnología aún más avanzada en comparación con su predecesor, que no solo forma módulos, sino que permite que el traje genere campos de energía. La composición consiste en nanopartículas de oro-titanio inteligentes,
+                        lo que le da a la armadura una combinación de mayor adaptabilidad, durabilidad, potencia y flexibilidad.
+                    </p>
 
-                <h3>Interfaz de control neurológico</h3>
-                <p>El Mark LXXXV se controla mediante circuitos de Neuro-Interface en la parte trasera del Arc Reactor y la capa de armadura más interna. Al igual que en su blindaje predecesor, el operador no necesita depender del soporte de Internet o AI
-                    para operar el blindaje a plena capacidad.</p>
-                <h3>Capacidades de armadura</h3>
-                <ul>
-                    <li>
-                        <p><b>Superfuerza</b>: la armadura amplifica la fuerza base y las habilidades de combate del usuario a niveles extremos. Se usó para luchar contra Thanos de cerca.</p>
-                    </li>
-                    <li>
-                        <p><b>Durabilidad</b>: la armadura es extremadamente duradera, capaz de resistir explosiones y golpes extremadamente poderosos, además de ser completamente a prueba de balas.</p>
-                    </li>
-                    <li>
-                        <p><b>Sello hermético</b>: es probable que el traje, al igual que su predecesor, pueda contener y separar el entorno interior del traje (incluido el usuario) del entorno exterior. Esto incluye tanto bajo el agua como en el espacio.
-                            El traje también es capaz de suministrar aire respirable al usuario si el entorno exterior no puede suministrarlo de forma fiable.
-                        </p>
-                    </li>
-                    <li>
-                        <p><b>Tecnología anti-fase</b>: la armadura tiene una superficie completamente sellada que evita cualquier tipo de exposición a las máquinas internas de la armadura. Las nanopartículas vibran con una frecuencia ultrarrápida que evita
-                            que seres como Vision, Ant-Man, etc. pasen por la armadura.</p>
-                    </li>
-                    <li>
-                        <p><b>Reforma / Aumento de Superficie</b>: El traje es capaz de formar módulos externos que incluyen un reenfocador de rayos y diferentes formas de hojas de energía y escudos de energía.
-                        </p>
-                    </li>
-                    <li>
+                    <h3>Deformable</h3>
+                    <p>El traje se puede desplegar y desintegrar en segundos. El Mark LXXXV se almacena dentro del reactor Arc desmontable en forma de corazón. El Mark LXXXV se puede desplegar o desintegrar con ropa informal y se puede usar detrás de cosas
+                        como camisetas. No requiere ropa especializada a diferencia del traje base de nanotecnología debido a que las partículas pasan por alto el tejido de la ropa y se despliegan en el otro lado de dicho tejido. Al desplegarse, el traje
+                        forma placas de blindaje con pequeñas aberturas. Una vez que parte de la armadura está completamente formada, las piezas se cierran de una manera similar a Mark XLVII. Todo el proceso de vestirse lleva menos de 5 segundos.
+                    </p>
 
-                        <p><b>Modo de despliegue limitado</b>: el diseño segmentado del traje le permite desplegar partes de la armadura (como un guantelete) cuando el sigilo es necesario.</p>
-                    </li>
-                    <li>
-                        <p><b>Vuelo de hipervelocidad</b>: el Mark LXXXV, como su predecesor, puede lograr un vuelo de hipervelocidad a plena potencia de vuelo con propulsores extremadamente potentes formados por ambas botas, la armadura es, muy probablemente,
-                            capaz de viajar tan rápido o más rápido que Mach 10.</p>
-                    </li>
-                    <li>
-                        <p><b>Portabilidad extrema</b>: el traje puede manifestarse a partir del nuevo reactor Arc desmontable, que también funciona como un contenedor de nanopartículas. Se puede implementar en modo "Limitado" formando solo el guante y probablemente
-                            cualquier otra parte en cualquier parte del cuerpo del operador dependiendo de la situación.
-                        </p>
-                    </li>
-                    <li>
-                        <p><b>Despliegue externo de nanoestructura</b>: lo más probable es que el traje sea capaz de disparar parte de su material de armadura para formar estructuras para realizar una amplia variedad de tareas.
-                        </p>
-                    </li>
-                    <li>
-                        <p><b>Integración de objetos extraños</b>: las nanopartículas avanzadas de la armadura permiten la integración y el uso de objetos extraños como Infinity Stones . Modificar el diseño de la pieza de la armadura para permitir un uso
-                            seguro o utilizar las partículas para mover el objeto a la ubicación deseada.</p>
-                    </li>
-                </ul>
-            </article>
-        </section>
+                    <h3>Segmentación del traje</h3>
+                    <p>A diferencia de la armadura básica de nanotecnología (Mark L), que era de múltiples capas y un diseño de una sola pieza, el Iron Man Mark LXXXV presenta un diseño segmentado (piezas de armadura separadas). Cuando se despliega desde
+                        el reactor Arc, el traje se forma en pedazos sobre el cuerpo del operador. Una vez que la parte del cuerpo del traje ha terminado el proceso de formación, las partes de la armadura se aprietan en el cuerpo del operador. Esta forma
+                        de nanoconstrucción permite desplegar la armadura en "modo de despliegue limitado" cuando es necesario el sigilo. Sin embargo, esta característica solo se usa al desplegar y / o deformar la armadura o partes de ella (como el casco
+                        para una visión clara, en cuyo caso la placa frontal se mueve hacia arriba y comienza a deformarse junto con el resto del casco). Los módulos de la armadura están formados en una sola pieza sólida, al igual que la armadura básica
+                        de nanotecnología.</p>
 
-        <section class="main-section" id="armas y herramientas">
-            <header>Armas y herramientas</header>
-            <article>
-                <h3>Repulsores</h3>
-                <p>Las armas estándar en todos los trajes de Iron Man. Estos repulsores en potencia rivalizan con los de los nanocañones repulsores de Mark L. Cuentan con una carga aún más rápida a la par de los repulsores de Mark XLV (carga instantánea
-                    en tierra, tono ultra alto, carga rápida en vuelo o en vuelo estacionario) debido a una distribución de energía aún mejor en comparación con los modelos más antiguos del traje. Los repulsores se pueden formar en la parte posterior
-                    del traje, ofreciendo más ofensiva pero drenando energía rápidamente requiriendo fuentes externas de energía.</p>
-                <h3>Lightning Reocuser</h3>
-                <p>Estructura formada por la espalda. Que incluye un absorbedor de energía (incluidos los rayos liberados por Mjolnir y Stormbreaker) y 6 estructuras en forma de alas con puntas de transmisor repulsor. Diseñado para absorber y redirigir de
-                    forma segura grandes cantidades de energía en forma de explosión repulsora de alta potencia.</p>
-                <h3>Unhaz</h3>
-                <p>El unhaz se dispara desde el centro del pecho RT. Dada la producción de energía de este modelo, lo más probable es que sea la tecnología repulsora más poderosa del traje. El haz se puede disparar en forma de plasma (como repulsores estándar)
-                    o en forma de energía (haz azul). La forma de energía se puede utilizar para alimentar objetos y equipos enormes.
-                </p>
-                <h3> Micro-láseres </h3>
-                <p>sistema láser basado en energía en la parte trasera del guante. Utiliza el reactor Arc como fuente de energía desde Mark VII. Presumiblemente con una potencia de salida aún mayor que la del sistema utilizado en Mark L.
-                </p>
-                <h3>Armas y herramientas formadas</h3>
-                <p>la Mark LXXXV puede formar una amplia variedad de armas y herramientas como la Mark L, algunas de las cuales incluyen un soplete con la punta del dedo, repulsores adicionales en forma de alas (matrices de repulsores de reenfoque), un reenfocador
-                    de energía, un escudo de energía, energía automática desintegradores y una hoja de energía.
-                </p>
-                <h3>Lanzador de micro-misiles con forma de hombro</h3>
-                <p>al igual que la armadura Mark L, el Mark LXXXV puede formar lanzadores de micro-misiles en sus placas de hombro y guanteletes. Cuentan con ojivas explosivas avanzadas de alta potencia que brindan una mayor efectividad en comparación con
-                    el traje base de nanotecnología.</p>
-                <h3>Spray de sutura médica</h3>
-                <p>un spray especial de composición desconocida almacenado en los guanteletes del traje, puede usarse para ayudar a sellar y curar heridas mucho más rápido. Desplegado de las yemas de los dedos de guantelete.</p>
-                <h3>Cañones cero</h3>
-                <p>cañones a base de nitrógeno líquido en la parte trasera de los guanteletes similares a los utilizados en Mark L.</p>
-            </article>
+                    <h3>Interfaz de control neurológico</h3>
+                    <p>El Mark LXXXV se controla mediante circuitos de Neuro-Interface en la parte trasera del Arc Reactor y la capa de armadura más interna. Al igual que en su blindaje predecesor, el operador no necesita depender del soporte de Internet
+                        o AI para operar el blindaje a plena capacidad.</p>
+                    <h3>Capacidades de armadura</h3>
+                    <ul>
+                        <li>
+                            <p><b>Superfuerza</b>: la armadura amplifica la fuerza base y las habilidades de combate del usuario a niveles extremos. Se usó para luchar contra Thanos de cerca.</p>
+                        </li>
+                        <li>
+                            <p><b>Durabilidad</b>: la armadura es extremadamente duradera, capaz de resistir explosiones y golpes extremadamente poderosos, además de ser completamente a prueba de balas.</p>
+                        </li>
+                        <li>
+                            <p><b>Sello hermético</b>: es probable que el traje, al igual que su predecesor, pueda contener y separar el entorno interior del traje (incluido el usuario) del entorno exterior. Esto incluye tanto bajo el agua como en el espacio.
+                                El traje también es capaz de suministrar aire respirable al usuario si el entorno exterior no puede suministrarlo de forma fiable.
+                            </p>
+                        </li>
+                        <li>
+                            <p><b>Tecnología anti-fase</b>: la armadura tiene una superficie completamente sellada que evita cualquier tipo de exposición a las máquinas internas de la armadura. Las nanopartículas vibran con una frecuencia ultrarrápida que
+                                evita que seres como Vision, Ant-Man, etc. pasen por la armadura.</p>
+                        </li>
+                        <li>
+                            <p><b>Reforma / Aumento de Superficie</b>: El traje es capaz de formar módulos externos que incluyen un reenfocador de rayos y diferentes formas de hojas de energía y escudos de energía.
+                            </p>
+                        </li>
+                        <li>
 
-        </section>
+                            <p><b>Modo de despliegue limitado</b>: el diseño segmentado del traje le permite desplegar partes de la armadura (como un guantelete) cuando el sigilo es necesario.</p>
+                        </li>
+                        <li>
+                            <p><b>Vuelo de hipervelocidad</b>: el Mark LXXXV, como su predecesor, puede lograr un vuelo de hipervelocidad a plena potencia de vuelo con propulsores extremadamente potentes formados por ambas botas, la armadura es, muy probablemente,
+                                capaz de viajar tan rápido o más rápido que Mach 10.</p>
+                        </li>
+                        <li>
+                            <p><b>Portabilidad extrema</b>: el traje puede manifestarse a partir del nuevo reactor Arc desmontable, que también funciona como un contenedor de nanopartículas. Se puede implementar en modo "Limitado" formando solo el guante
+                                y probablemente cualquier otra parte en cualquier parte del cuerpo del operador dependiendo de la situación.
+                            </p>
+                        </li>
+                        <li>
+                            <p><b>Despliegue externo de nanoestructura</b>: lo más probable es que el traje sea capaz de disparar parte de su material de armadura para formar estructuras para realizar una amplia variedad de tareas.
+                            </p>
+                        </li>
+                        <li>
+                            <p><b>Integración de objetos extraños</b>: las nanopartículas avanzadas de la armadura permiten la integración y el uso de objetos extraños como Infinity Stones . Modificar el diseño de la pieza de la armadura para permitir un
+                                uso seguro o utilizar las partículas para mover el objeto a la ubicación deseada.</p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
 
-        <section class="main-section" id="historia">
-            <header>Historia.</header>
-            <article>
-                <h3>Vengadores: Juego Final</h3>
-                <p>Durante la película, el Mark LXXXV se ve por primera vez cuando los Vengadores viajaron en el tiempo a la Batalla de Nueva York cuando lo usa Tony Stark mientras inspecciona la Torre Stark desde la corona del edificio Chrysler. Una vez
-                    más, se ve que el traje se envuelve rápidamente alrededor de Tony Stark mientras salta de la Torre Stark para mantenerse a cubierto. A lo largo de la película, una pequeña cantidad de partículas del traje se transforman en nano gafas
-                    AR que se usan para rastrear la piedra espacial cuando Tony y Steve viajaron en el tiempo al Camp Lehigh de la década de 1970 para robar la versión de ese tiempo del Tesseract. En el almacenamiento subterráneo del Campamento, Tony
-                    usó el guantelete derecho de Mark LXXXV con un soplete de dedo para romper la unidad de contención del Cubo y robarlo. Más adelante en la película Stark.</p>
-                <p>Eso utilizó tanto Nano-tech como chapado ajustable. Antes de que Hulk se lo ponga, se ve a Tony presionando el Arco dos veces, lo que activa la secuencia de despliegue de la armadura, envolviendo a Tony en unos segundos con el generador
-                    de escudo de energía en el guante derecho de la armadura. Justo antes de la batalla final con Thanos, el Santuario II abre fuego sobre el Compuesto de los Vengadores que se derrumba sobre los Vengadores restantes, y aunque el traje
-                    de War Machine se vuelve inútil, el Mark 85 sale relativamente ileso. Durante la confrontación inicial de Iron Man, Capitán América y Thor contra Thanos, el traje despliega una variedad de armas como una hoja de energía, aunque el
-                    arma más nueva utilizada por Tony Stark fue el reenfocador de rayos que con la ayuda de Thor sobrealimentó los repulsores del traje. y logró reprimir a Thanos. Más tarde en la batalla.</p>
-                <p>Posteriormente, la armadura se usa para luchar contra los ejércitos de Thanos, se ve a Iron Man disparando micro-láseres mientras aterriza, luego dispara a algunos escoltas con repulsores antes de ser golpeado en la espalda por el martillo
-                    de cadena de Cull Obsidian, en respuesta a Iron Man usó energía automática. blásteres para disparar a Cull Obsidian hasta que llegó Spider-Man, agarró el brazo derecho de Obisian y lo tiró hacia abajo para que Ant-Man (en forma de
-                    Giant-Man) lo pisara. Durante la pelea final entre Tony Stark y Thanos, el Mark LXXXV se usa para evitar que Thanos use el guante. Después del intento fallido del Capitán Marvel de detener a Thanos, Tony Stark usa la función de integración
-                    de objetos extraños de Mark LXXXV para transferir las piedras Infinity del Nano Gauntlet al traje correcto. s guante para usar su poder (el aumento de poder de incluso sostener las seis piedras fue tan inmenso que comenzó a destruir
-                    nanopartículas a lo largo de los canales de plasma), respondiendo al "Soy inevitable" de Thanos con "Y yo soy Iron Man" antes chasqueando los dedos y derrotando con éxito a Thanos y su ejército. El reactor del Mark LXXXV se apaga tan
-                    pronto como Tony Stark muere debido a un trauma físico extremo por usar las seis piedras infinitas a la vez. Se ve el casco del Mark LXXXV proyectando un mensaje pregrabado de Tony Stark, lo que implica que, a pesar del daño de la
-                    batalla de la tierra, presumiblemente todavía funciona. antes de chasquear los dedos y derrotar con éxito a Thanos y su ejército. El reactor del Mark LXXXV se apaga tan pronto como Tony Stark muere debido a un trauma físico extremo
-                    por usar las seis piedras infinitas a la vez. Se ve el casco del Mark LXXXV proyectando un mensaje pregrabado de Tony Stark, lo que implica que, a pesar del daño de la batalla de la tierra, presumiblemente todavía funciona. antes de
-                    chasquear los dedos y derrotar con éxito a Thanos y su ejército. El reactor del Mark LXXXV se apaga tan pronto como Tony Stark muere debido a un trauma físico extremo por usar las seis piedras infinitas a la vez. Se ve el casco del
-                    Mark LXXXV proyectando un mensaje pregrabado de Tony Stark, lo que implica que, a pesar del daño de la batalla de la tierra, presumiblemente todavía funciona. </p>
-            </article>
+            <section class="main-section" id="armas y herramientas">
+                <header>Armas y herramientas</header>
+                <article>
+                    <h3>Repulsores</h3>
+                    <p>Las armas estándar en todos los trajes de Iron Man. Estos repulsores en potencia rivalizan con los de los nanocañones repulsores de Mark L. Cuentan con una carga aún más rápida a la par de los repulsores de Mark XLV (carga instantánea
+                        en tierra, tono ultra alto, carga rápida en vuelo o en vuelo estacionario) debido a una distribución de energía aún mejor en comparación con los modelos más antiguos del traje. Los repulsores se pueden formar en la parte posterior
+                        del traje, ofreciendo más ofensiva pero drenando energía rápidamente requiriendo fuentes externas de energía.</p>
+                    <h3>Lightning Reocuser</h3>
+                    <p>Estructura formada por la espalda. Que incluye un absorbedor de energía (incluidos los rayos liberados por Mjolnir y Stormbreaker) y 6 estructuras en forma de alas con puntas de transmisor repulsor. Diseñado para absorber y redirigir
+                        de forma segura grandes cantidades de energía en forma de explosión repulsora de alta potencia.</p>
+                    <h3>Unhaz</h3>
+                    <p>El unhaz se dispara desde el centro del pecho RT. Dada la producción de energía de este modelo, lo más probable es que sea la tecnología repulsora más poderosa del traje. El haz se puede disparar en forma de plasma (como repulsores
+                        estándar) o en forma de energía (haz azul). La forma de energía se puede utilizar para alimentar objetos y equipos enormes.
+                    </p>
+                    <h3> Micro-láseres </h3>
+                    <p>sistema láser basado en energía en la parte trasera del guante. Utiliza el reactor Arc como fuente de energía desde Mark VII. Presumiblemente con una potencia de salida aún mayor que la del sistema utilizado en Mark L.
+                    </p>
+                    <h3>Armas y herramientas formadas</h3>
+                    <p>la Mark LXXXV puede formar una amplia variedad de armas y herramientas como la Mark L, algunas de las cuales incluyen un soplete con la punta del dedo, repulsores adicionales en forma de alas (matrices de repulsores de reenfoque),
+                        un reenfocador de energía, un escudo de energía, energía automática desintegradores y una hoja de energía.
+                    </p>
+                    <h3>Lanzador de micro-misiles con forma de hombro</h3>
+                    <p>al igual que la armadura Mark L, el Mark LXXXV puede formar lanzadores de micro-misiles en sus placas de hombro y guanteletes. Cuentan con ojivas explosivas avanzadas de alta potencia que brindan una mayor efectividad en comparación
+                        con el traje base de nanotecnología.</p>
+                    <h3>Spray de sutura médica</h3>
+                    <p>un spray especial de composición desconocida almacenado en los guanteletes del traje, puede usarse para ayudar a sellar y curar heridas mucho más rápido. Desplegado de las yemas de los dedos de guantelete.</p>
+                    <h3>Cañones cero</h3>
+                    <p>cañones a base de nitrógeno líquido en la parte trasera de los guanteletes similares a los utilizados en Mark L.</p>
+                </article>
 
-        </section>
-    </main>
+            </section>
+
+            <section class="main-section" id="historia">
+                <header>Historia.</header>
+                <article>
+                    <h3>Vengadores: Juego Final</h3>
+                    <p>Durante la película, el Mark LXXXV se ve por primera vez cuando los Vengadores viajaron en el tiempo a la Batalla de Nueva York cuando lo usa Tony Stark mientras inspecciona la Torre Stark desde la corona del edificio Chrysler. Una
+                        vez más, se ve que el traje se envuelve rápidamente alrededor de Tony Stark mientras salta de la Torre Stark para mantenerse a cubierto. A lo largo de la película, una pequeña cantidad de partículas del traje se transforman en
+                        nano gafas AR que se usan para rastrear la piedra espacial cuando Tony y Steve viajaron en el tiempo al Camp Lehigh de la década de 1970 para robar la versión de ese tiempo del Tesseract. En el almacenamiento subterráneo del Campamento,
+                        Tony usó el guantelete derecho de Mark LXXXV con un soplete de dedo para romper la unidad de contención del Cubo y robarlo. Más adelante en la película Stark.</p>
+                    <p>Eso utilizó tanto Nano-tech como chapado ajustable. Antes de que Hulk se lo ponga, se ve a Tony presionando el Arco dos veces, lo que activa la secuencia de despliegue de la armadura, envolviendo a Tony en unos segundos con el generador
+                        de escudo de energía en el guante derecho de la armadura. Justo antes de la batalla final con Thanos, el Santuario II abre fuego sobre el Compuesto de los Vengadores que se derrumba sobre los Vengadores restantes, y aunque el traje
+                        de War Machine se vuelve inútil, el Mark 85 sale relativamente ileso. Durante la confrontación inicial de Iron Man, Capitán América y Thor contra Thanos, el traje despliega una variedad de armas como una hoja de energía, aunque
+                        el arma más nueva utilizada por Tony Stark fue el reenfocador de rayos que con la ayuda de Thor sobrealimentó los repulsores del traje. y logró reprimir a Thanos. Más tarde en la batalla.</p>
+                    <p>Posteriormente, la armadura se usa para luchar contra los ejércitos de Thanos, se ve a Iron Man disparando micro-láseres mientras aterriza, luego dispara a algunos escoltas con repulsores antes de ser golpeado en la espalda por el
+                        martillo de cadena de Cull Obsidian, en respuesta a Iron Man usó energía automática. blásteres para disparar a Cull Obsidian hasta que llegó Spider-Man, agarró el brazo derecho de Obisian y lo tiró hacia abajo para que Ant-Man
+                        (en forma de Giant-Man) lo pisara. Durante la pelea final entre Tony Stark y Thanos, el Mark LXXXV se usa para evitar que Thanos use el guante. Después del intento fallido del Capitán Marvel de detener a Thanos, Tony Stark usa
+                        la función de integración de objetos extraños de Mark LXXXV para transferir las piedras Infinity del Nano Gauntlet al traje correcto. s guante para usar su poder (el aumento de poder de incluso sostener las seis piedras fue tan
+                        inmenso que comenzó a destruir nanopartículas a lo largo de los canales de plasma), respondiendo al "Soy inevitable" de Thanos con "Y yo soy Iron Man" antes chasqueando los dedos y derrotando con éxito a Thanos y su ejército. El
+                        reactor del Mark LXXXV se apaga tan pronto como Tony Stark muere debido a un trauma físico extremo por usar las seis piedras infinitas a la vez. Se ve el casco del Mark LXXXV proyectando un mensaje pregrabado de Tony Stark, lo
+                        que implica que, a pesar del daño de la batalla de la tierra, presumiblemente todavía funciona. antes de chasquear los dedos y derrotar con éxito a Thanos y su ejército. El reactor del Mark LXXXV se apaga tan pronto como Tony Stark
+                        muere debido a un trauma físico extremo por usar las seis piedras infinitas a la vez. Se ve el casco del Mark LXXXV proyectando un mensaje pregrabado de Tony Stark, lo que implica que, a pesar del daño de la batalla de la tierra,
+                        presumiblemente todavía funciona. antes de chasquear los dedos y derrotar con éxito a Thanos y su ejército. El reactor del Mark LXXXV se apaga tan pronto como Tony Stark muere debido a un trauma físico extremo por usar las seis
+                        piedras infinitas a la vez. Se ve el casco del Mark LXXXV proyectando un mensaje pregrabado de Tony Stark, lo que implica que, a pesar del daño de la batalla de la tierra, presumiblemente todavía funciona. </p>
+                </article>
+
+            </section>
+        </main>
+    </div>
 </body>
 
 </html>
